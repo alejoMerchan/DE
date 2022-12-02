@@ -1,0 +1,39 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-tid-3899290686009139423-cb54c082-9323-483b-b921-c5f612a4c973-27-1-c000.snappy.parquet",
+				"folderPath": "resource/clean-data-01:02-01-12-22.parquet",
+				"fileSystem": "fs1"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "age_group",
+				"type": "UTF8"
+			},
+			{
+				"name": "covid_19_deaths",
+				"type": "UTF8"
+			},
+			{
+				"name": "sex",
+				"type": "UTF8"
+			},
+			{
+				"name": "state",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

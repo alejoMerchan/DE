@@ -1,0 +1,9 @@
+{
+	"name": "pipeline-example-alejandro-se-2002",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ebe820e-1840-46a3-9370-e98bcfdd9c32",
+		"tenantId": "8f1161e3-3181-4227-8ea7-86bcdfbeb84a"
+	}
+}
